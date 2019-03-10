@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "alexa",
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "es-MX": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "name": "Generador de Perreo",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3205/033ab5e2c20143cd935511ec68f4b9ee/APP_ICON?versionId=hjUc06C.qERWXbdDhbY_4m5uFlgyv9Xk&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550954326&Signature=Wy%2Fl6j%2BjyMZBzxanW2sYCA6bPgQ%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1935/c892331396674212a2a640ccac023ed0/APP_ICON_LARGE?versionId=CtLHoClSMTpA14kTxq8p1XP1JJCMsUKe&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550954326&Signature=FsdfKvoWtjpXBxXblayvnhlCXFw%3D",
+          "summary": "¡Crea tu propia canción de Reggaetón! Baila hasta el suelo con este generador de canciones.",
+          "description": "¿Siempre soñaste con ser cantante? no esperes más, genera tu propia canción y conviértete en el próximo \"Bad bunny\".\n\nPrueba el divertido generador de perreo y siente el \"flow\".\n\nPara iniciar puedes probar diciendo una de la siguientes opciones:\n\"Alexa, abre generador de perreo y dame un perreo\"\n\"Alexa, abre generador de perreo y genera una canción\"\n\nSi necesitas ayuda: Di \"Ayuda\".",
+          "examplePhrases": [
+            "Alexa, abre generador de perreo",
+            "Alexa, abre generador de perro y perrea intenso",
+            "Alexa, abre generador de perreo y genera mi canción"
+          ],
+          "keywords": [
+            "perreo",
+            "reggaeton",
+            "bad",
+            "bunny",
+            "maluma",
+            "cancion",
+            "musica",
+            "reggae"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Open the skill saying: abre generador de perreo\n\nthe skill will create a song using random words from a collection. and two sound presets\n\nyou can invoke it directly saying something like: abre generador de perreo y perra intenso",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    }
+  }
+}
